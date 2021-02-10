@@ -21,22 +21,22 @@ This enhances [Advanced Custom Field](https://www.advancedcustomfields.com/pro/)
             "type": "wordpress-muplugin",
             "version": "3.0.0",
             "dist": {
-            "type": "zip",
-            "url": "web/app/plugin-zips/acf-svg-icon-modified-3.0.0.zip"
+                "type": "zip",
+                "url": "web/app/plugin-zips/acf-svg-icon-modified-3.0.0.zip"
             }
         }
         },
         ...
     ]
     ```
-1. Add a line to your require block: `"akandco/acf-svg-icon": "^2",`
+1. Add a line to your require block: `"akandco/acf-svg-icon": "^3",`
 1. Add to mu-plugins:
     ```yml
     "web/app/mu-plugins/{$name}/": [
         "type:wordpress-muplugin",
         "akandco/acf-svg-icon",
         ...
-  ```
+    ```
 1. Run: `composer update`
 1. Add icons to `assets/images/icons` and/or the Media Library
 
