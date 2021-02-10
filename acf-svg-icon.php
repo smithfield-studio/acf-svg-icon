@@ -1,7 +1,7 @@
 <?php
 /*
 Plugin Name: Advanced Custom Fields: SVG Icon [MODIFIED]
-Version: 2.0.5
+Version: 3.0.0
 Description: Add an ACF SVG icon selector.
 Domain Path: languages
 Text Domain: acf-svg-icon
@@ -11,7 +11,7 @@ if (!defined('ABSPATH')) {
     die();
 }
 
-define('ACF_SVG_ICON_VER', '2.0.5');
+define('ACF_SVG_ICON_VER', '3.0.0');
 define('ACF_SVG_ICON_URL', plugin_dir_url(__FILE__));
 define('ACF_SVG_ICON_DIR', plugin_dir_path(__FILE__));
 

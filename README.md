@@ -19,10 +19,10 @@ This enhances [Advanced Custom Field](https://www.advancedcustomfields.com/pro/)
         "package": {
             "name": "akandco/acf-svg-icon",
             "type": "wordpress-muplugin",
-            "version": "2.0.6",
+            "version": "3.0.0",
             "dist": {
             "type": "zip",
-            "url": "web/app/plugin-zips/acf-svg-icon-modified-2.0.6.zip"
+            "url": "web/app/plugin-zips/acf-svg-icon-modified-3.0.0.zip"
             }
         }
         },
@@ -73,7 +73,9 @@ If you gonna change some JS or CSS, we use GULP in order to uglify and minify as
 
 ## Changelog
 
-### 2.0.6 - 10 Feb 2021
+
+### 3.0.0 - 10 Feb 2021
+* Version bump as probs not compatible with previous versions since updates/overrides made
 * Feature: add filter `acf_svg_icon_include_media_library` to disable icons/svgs in the media library
 
 ### 2.0.5 - Late 2020

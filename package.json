@@ -2,7 +2,7 @@
   "name": "acf-svg-icon",
   "version": "1.2.0",
   "description": "ACF SVG icon field.",
-  "author": "Be API",
+  "author": "akandco",
   "devDependencies": {
     "matchdep": "*"
   },
