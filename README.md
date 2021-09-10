@@ -74,6 +74,9 @@ If you gonna change some JS or CSS, we use GULP in order to uglify and minify as
 ## Changelog
 
 
+### 3.0.1 - 10 Sep 2021
+* Updated usage of `wp_localize_script` to support the new requirement of Wordpress 5.7
+
 ### 3.0.0 - 10 Feb 2021
 * Version bump as probs not compatible with previous versions since updates/overrides made
 * Feature: add filter `acf_svg_icon_include_media_library` to disable icons/svgs in the media library
