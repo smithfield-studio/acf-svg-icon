@@ -7,7 +7,7 @@
             dropdownAutoWidth: true,
             formatResult: svg_icon_format,
             formatSelection: svg_icon_format_small,
-            data: {results: svg_icon_format_data},
+            data: {results: svg_icon_format_data.items},
             allowClear: 1 == allowClear
         };
 

@@ -7,7 +7,7 @@
             dropdownAutoWidth: true,
             templateResult: bea_svg_format,
             templateSelection: bea_svg_format_small,
-            data: svg_icon_format_data,
+            data: svg_icon_format_data.items,
             allowClear: 1 == allowClear,
         };
 
