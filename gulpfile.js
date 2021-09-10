@@ -7,13 +7,13 @@ var gulp = require('gulp'),
 gulp.task('dist', function () {
 	gulp.src([ 'assets/js/input-5.js' ])
 		.pipe(plugins.jshint())
-		.pipe(plugins.uglify())
+		.pipe(plugins.minify())
 		.pipe(plugins.concat('input-5.min.js'))
 		.pipe(gulp.dest('assets/js/'));
 
 	gulp.src([ 'assets/js/input-56.js' ])
 		.pipe(plugins.jshint())
-		.pipe(plugins.uglify())
+		.pipe(plugins.minify())
 		.pipe(plugins.concat('input-56.min.js'))
 		.pipe(gulp.dest('assets/js/'));
 
