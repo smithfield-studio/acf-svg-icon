@@ -320,7 +320,9 @@ class acf_field_svg_icon extends acf_field
         // Min version ?
         $suffix = defined('SCRIPT_DEBUG') && SCRIPT_DEBUG === true ? '' : '.min';
 
-        wp_localize_script('acf-input-svg-icon', 'svg_icon_format_data', $this->parse_svg());
+        wp_localize_script('acf-input-svg-icon', 'svg_icon_format_data', [
+            'items' => $this->parse_svg(),
+        ]);
         wp_register_style('acf-input-svg-icon', ACF_SVG_ICON_URL . 'assets/css/style' . $suffix . '.css', ['select2'], ACF_SVG_ICON_VER);
 
         wp_enqueue_script('acf-input-svg-icon');
